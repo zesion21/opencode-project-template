@@ -24,7 +24,8 @@
 ## 技能调用
 
 - 当进行需求分析时，请调用 @product 进行产品需求分析，生成的文档存储在 `docs/` 中。
-- 当进行后台开发和API接口设计时，请调用 @backend ，并且只能读取和修改 `backend`目录下代码内容，生成的文档存储在 `docs/`，接口文档存储在 `docs/api.md` 中。
+<!-- - 当进行后台开发和API接口设计时，请调用 @backend ，并且只能读取和修改 `backend`目录下代码内容，生成的文档存储在 `docs/`，接口文档存储在 `docs/api.md` 中。 -->
+- 当使用midway技术栈进行后台开发和API接口设计时，请调用 @backend-midway ，并且只能读取和修改 `backend`目录下代码内容，生成的文档存储在 `docs/`，接口文档存储在 `docs/api.md` 中。
 - 当进行前端开发时，请调用 @frontend ，协同 @ui-ux-pro-max 进行页面设计， 并且只能读取和修改 `frontend`目录下代码内容， 生成的文档存储在 `docs/` 中。
 - 当进行uniapp时，请调用 @uniapp-architect ，生成的文档存储在 `docs/` 中。
 
@@ -64,11 +65,8 @@
 │   ├── PRD.md                   # 产品需求文档
 │   ├── ARCHITECTURE.md          # 系统架构设计
 │   ├── API-SPEC.md              # API接口规范
-│   ├── DEPLOYMENT.md            # 部署指南
-│   └── DEVELOPMENT.md           # 开发指南
-├── backend/                     # Spring Boot后端
-│   ├── README.md                # 后端项目说明
-│   ├── pom.xml                  # Maven配置
+│   └── CHANGELOG.md             # 变更日志
+├── backend/                     # 后端
 │   └── src/                     # 源代码
 ├── frontend/                    # Vue前端
 │   ├── README.md                # 前端项目说明
